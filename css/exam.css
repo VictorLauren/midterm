@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: white;
+  }
+
+  a:hover, a:active {
+    background-color: grey;
+ }
+
+section {
+  max-width: 3000px; 
+  margin: 0px auto; 
+  padding: 0px; 
+  display: flex;
+}
+
+.content-column {
+  flex: 1; 
+  box-sizing: border-box;
+  padding: 10px; 
+}
+
+.left-column {
+  width: 1000px;
+  border: 2px solid #333;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.rounded-image-frame {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.center-column {
+  width: 1000px;
+  border: 2px solid #333;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: darkkhaki;
+}
+
+.rounded-image-frame {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.right-column {
+  width: 1000px;
+  border: 2px solid #333;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+  .rounded-image-frame {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+footer {
+  background-color: cornflowerblue;
+  padding: 2px;
+  text-align: center;
+  margin: 0px;
+}
+
+  .rounded-image-frame {
+  width: 100%; 
+  height: auto; 
+  border-radius: 100%;
+  overflow: hidden;
+  }
+
+  .rounded-image-frame img {
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+
